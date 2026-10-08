@@ -1,3 +1,3 @@
 function abrirSorpresa() {
-  alert("🎁 ¡La sorpresa apenas comienza, Ale! 💙");
+    alert("🎁 ¡La sorpresa apenas comienza, Ale! 💙");
 }

@@ -1,101 +1,133 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Feliz cumpleaños, Ale 💙</title>
-
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: Arial, sans-serif;
-      background: linear-gradient(135deg, #071a35, #123d68, #0a223f);
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 25px;
-    }
-
-    .portada {
-      max-width: 500px;
-      width: 100%;
-      padding: 30px 20px;
-    }
-
-    .foto {
-      width: 210px;
-      height: 210px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 5px solid white;
-      box-shadow: 0 0 30px rgba(255,255,255,0.25);
-      margin-bottom: 25px;
-    }
-
-    h1 {
-      font-size: 42px;
-      margin: 10px 0;
-    }
-
-    h2 {
-      font-size: 22px;
-      font-weight: normal;
-      line-height: 1.5;
-      margin: 15px 0;
-    }
-
-    p {
-      font-size: 18px;
-      line-height: 1.6;
-    }
-
-    button {
-      margin-top: 25px;
-      padding: 15px 30px;
-      border: none;
-      border-radius: 30px;
-      background: white;
-      color: #123d68;
-      font-size: 18px;
-      font-weight: bold;
-      cursor: pointer;
-    }
-
-    button:active {
-      transform: scale(0.96);
-    }
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#101a38">
+<title>Para Ale | Feliz cumpleaÃ±os 16 ðŸ•·ï¸</title>
+<style>
+:root{--red:#ed2939;--blue:#1976dc;--navy:#09132d;--gold:#ffdc69}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#09132d;color:#fff;font-family:Arial,Helvetica,sans-serif;text-align:center;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;z-index:-1;opacity:.13;background-image:linear-gradient(35deg,transparent 48%,#9fcaff 49%,transparent 51%),linear-gradient(145deg,transparent 48%,#9fcaff 49%,transparent 51%);background-size:62px 62px}
+button{border:2px solid var(--gold);border-radius:30px;padding:13px 18px;margin:7px;background:linear-gradient(120deg,var(--red),#a50926);color:#fff;font-size:15px;font-weight:bold;cursor:pointer}
+button:active{transform:scale(.97)}button:disabled{opacity:.5}
+main{max-width:760px;margin:auto;padding:10px 14px 40px}.screen{display:none;min-height:78vh;align-content:center;padding:22px 0}.screen.active{display:grid}
+.panel{background:#101d42ed;border:1px solid #ed4055;border-radius:24px;padding:23px 17px;box-shadow:0 15px 45px #0005}
+h1{font-size:clamp(2.3rem,10vw,4.3rem);line-height:1.02;color:#ff4a58;text-shadow:3px 3px #07102a;margin:16px 0}
+h2{color:var(--gold);font-size:clamp(1.5rem,6vw,2.1rem)}p{line-height:1.8}img{max-width:100%}.hero-photo{width:210px;height:210px;object-fit:cover;border-radius:20px;border:3px solid var(--gold)}.web{font-size:40px}.muted{font-size:13px;color:#c7d5f8}.buttons{margin-top:18px}.gifts{display:grid;grid-template-columns:1fr 1fr;gap:10px}.gift{font-size:35px;min-height:105px;background:#142958}.gift small{font-size:12px}.card{border:1px solid #f2cb5c;border-radius:15px;padding:16px;margin:10px 0;background:#0b1737;line-height:1.8}.gallery-img{width:100%;max-height:360px;object-fit:contain;border-radius:14px;background:#070e21}.counter{color:#ffdd6c;font-weight:bold}.final{font-size:24px}.heart{position:fixed;bottom:-40px;z-index:20;pointer-events:none;animation:rise 4.5s linear forwards}@keyframes rise{to{transform:translateY(-110vh) rotate(30deg);opacity:0}}.dots{display:flex;justify-content:center;gap:6px;margin:8px}.dot{width:7px;height:7px;background:#6e82b8;border-radius:50%}.dot.on{background:#ffdf69}footer{font-size:12px;color:#b8c9ee;padding:20px}
+@media(min-width:600px){main{padding-top:25px}.panel{padding:30px}}
+</style>
 </head>
-
 <body>
+<main>
+<section class="screen active" id="s0"><div class="panel">
+<div class="web">ðŸ•¸ï¸ ðŸ•·ï¸ ðŸ•¸ï¸</div>
+<img class="hero-photo" src="foto-ale.jpg" alt="Ale de pequeÃ±o" onerror="this.style.display='none'">
+<h1>Â¡FELIZ CUMPLEAÃ‘OS,<br>ALE!</h1>
+<p>ðŸ’™ Hoy el multiverso celebra a alguien increÃ­ble: Â¡tÃº! â¤ï¸</p>
+<p>PreparÃ© una pequeÃ±a aventura con tu hÃ©roe favorito, recuerdos y mucho cariÃ±o.</p>
+<button onclick="go(1)">ðŸ•¸ï¸ ABRIR MI REGALO</button>
+</div></section>
 
-  <div class="portada">
+<section class="screen" id="s1"><div class="panel">
+<div class="web">ðŸ•·ï¸ðŸ’™</div><h2>Antes de empezarâ€¦</h2>
+<p>16 aÃ±os de historias, aprendizajes, risas, sueÃ±os y momentos que te han convertido en quien eres hoy.</p>
+<p>Deseo que esta nueva etapa te traiga aventuras increÃ­bles, gente que te quiera bonito y muchÃ­simas razones para sentirte orgulloso de ti.</p>
+<p>Hoy tÃº eres el protagonista, Ale. Â¡Vamos a descubrir tus sorpresas!</p>
+<button onclick="go(2)">CONTINUAR âžœ</button>
+</div></section>
 
-    <img src="foto-ale.jpg" alt="Ale de pequeño" class="foto">
+<section class="screen" id="s2"><div class="panel">
+<h2>ðŸŽ Â¡Hay sorpresas para ti!</h2><p>Toca cada regalo para abrirlo. Puedes abrir los cuatro.</p>
+<div class="gifts">
+<button class="gift" onclick="openGift(0)">ðŸŽ<br><small>REGALO 1</small></button>
+<button class="gift" onclick="openGift(1)">ðŸŽ<br><small>REGALO 2</small></button>
+<button class="gift" onclick="openGift(2)">ðŸŽ<br><small>REGALO 3</small></button>
+<button class="gift" onclick="openGift(3)">ðŸŽ<br><small>REGALO 4</small></button>
+</div><div id="giftText" class="card" style="display:none"></div>
+<button onclick="go(3)">CONTINUAR âžœ</button>
+</div></section>
 
-    <h1>ALE 💙</h1>
+<section class="screen" id="s3"><div class="panel">
+<h2>ðŸ“¸ Un pequeÃ±o recuerdo</h2><p>Una galerÃ­a pequeÃ±ita dedicada a ti.</p>
+<img id="gallery" class="gallery-img" src="foto-ale.jpg" alt="Recuerdo de Ale" onerror="this.alt='AÃ±ade tus fotos con los nombres indicados en el archivo ZIP'">
+<p id="galleryCaption">El pequeÃ±o hÃ©roe ðŸ•¸ï¸</p><div class="counter" id="photoCount">Foto 1 de 4</div>
+<button onclick="changePhoto(-1)">â¬… ANTERIOR</button><button onclick="changePhoto(1)">SIGUIENTE âž¡</button>
+<p class="muted">Si alguna foto no aparece, puedes seguir disfrutando de las demÃ¡s secciones.</p>
+<button onclick="go(4)">CONTINUAR âžœ</button>
+</div></section>
 
-    <h2>
-      Hoy es un día especial…<br>
-      porque hoy celebramos tus 16 años.
-    </h2>
+<section class="screen" id="s4"><div class="panel">
+<h2>ðŸŽµ Presiona para escuchar</h2><p>Una canciÃ³n para acompaÃ±ar este dÃ­a tan especial.</p>
+<h3>El Rey â€” Vicente FernÃ¡ndez ðŸ’™</h3>
+<p>Que esta canciÃ³n haga mÃ¡s bonito tu cumpleaÃ±os. Â¡DisfrÃºtala, cumpleaÃ±ero!</p>
+<a href="https://www.youtube.com/results?search_query=Vicente+Fernandez+El+Rey+oficial" target="_blank" rel="noopener"><button>â–¶ ESCUCHAR Â«EL REYÂ»</button></a>
+<p class="muted">Se abrirÃ¡ YouTube; necesitas conexiÃ³n a internet.</p>
+<button onclick="go(5)">CONTINUAR âžœ</button>
+</div></section>
 
-    <p>
-      Hay algo preparado especialmente para ti. 🎁
-    </p>
 
-    <button onclick="abrirSorpresa()">
-    ABRIR 🎁
-</button>
+<section class="screen" id="s6"><div class="panel">
+<h2>ðŸ’™ 16 cosas que deseo para ti</h2><p>Toca cada tarjeta para descubrirla.</p><div id="sixteen"></div>
+<button onclick="go(6)">LEER MI CARTA ðŸ’Œ</button>
+</div></section>
 
-  </div>
+<section class="screen" id="s7"><div class="panel">
+<div class="web">ðŸ•¸ï¸â¤ï¸ðŸ•·ï¸</div><h2>Para Ale, con todo mi cariÃ±o ðŸ’Œ</h2>
+<div style="text-align:left">
+<p>Feliz cumpleaÃ±os, mi amor. â¤ï¸</p>
+<p>Hoy cumples 16 aÃ±os y querÃ­a regalarte algo que fuera tan especial como este dÃ­a. OjalÃ¡ pudiera estar frente a ti para abrazarte muy fuerte, ver tu sonrisa y celebrar contigo, pero mientras tanto preparÃ© esta pequeÃ±a sorpresa pensando en ti y en todas las cosas que te gustan. Y claro que Spider-Man tenÃ­a que estar presente, porque sÃ© que es uno de tus favoritos. ðŸ•·ï¸ðŸ’™</p>
+<p>Deseo de todo corazÃ³n que este nuevo aÃ±o de vida te regale muchÃ­simas razones para sonreÃ­r, aventuras inolvidables, salud, tranquilidad, amistades sinceras y oportunidades para cumplir tus sueÃ±os. Nunca dejes de intentar aquello que te emociona. Cada paso que das, incluso los pequeÃ±itos, forma parte de la persona en la que te estÃ¡s convirtiendo.</p>
+<p>Quiero que sepas que eres alguien muy especial para mÃ­. Me encanta poder quererte, pensar en ti y encontrar formas de hacerte sentir querido. A veces las palabras no alcanzan para explicar lo que una persona significa, pero hoy querÃ­a intentarlo con esta pÃ¡gina, con cada detalle, cada fotografÃ­a y cada sorpresa que preparÃ© para ti.</p>
+<p>Me gusta que seas tÃº, con tus gustos, tus ocurrencias, tu manera de ser y esas pequeÃ±as cosas que te hacen diferente a todos los demÃ¡s. No necesitas ser perfecto ni tener siempre todo resuelto. TambiÃ©n puedes cansarte, equivocarte, aprender y volver a intentarlo. Hasta los superhÃ©roes necesitan un descanso de vez en cuando. â¤ï¸</p>
+<p>OjalÃ¡ nunca te falten motivos para sentirte orgulloso de ti mismo. Deseo que sigas creciendo, aprendiendo y acercÃ¡ndote a todo aquello que sueÃ±as. Que encuentres personas que te valoren, que te traten con cariÃ±o y que celebren tus logros de corazÃ³n. Y cuando tengas un dÃ­a difÃ­cil, recuerda que un dÃ­a complicado no define todo lo bonito que todavÃ­a te espera.</p>
+<p>Gracias por formar parte de mi vida y por todos los momentos que hemos compartido. Me hace ilusiÃ³n pensar en todos los recuerdos que aÃºn podemos crear: risas, fotografÃ­as, conversaciones, canciones y momentos sencillos que un dÃ­a se convertirÃ¡n en recuerdos importantes. Quiero que tengas un cumpleaÃ±os lleno de amor y que te sientas muy especial, porque hoy celebramos algo maravilloso: que existes y que has llegado a tus 16 aÃ±os.</p>
+<p>Si pudiera pedir un deseo por ti, pedirÃ­a que la vida te trate bonito, que nunca pierdas esa chispa que te hace ser tÃº y que siempre tengas fuerzas para perseguir lo que te haga feliz. Que este nuevo capÃ­tulo venga lleno de aventuras tan increÃ­bles como las de tu hÃ©roe favorito, pero con muchÃ­simas razones reales para sonreÃ­r.</p>
+<p>Feliz cumpleaÃ±os, mi niÃ±o hermoso. Espero que esta pequeÃ±a caja de sorpresas te saque una sonrisa y que guardes este regalo con cariÃ±o. No es solo una pÃ¡gina: es un pedacito de mi tiempo, de mis pensamientos y de todo el cariÃ±o con el que quise celebrar tu dÃ­a.</p>
+<p>Te quiero muchÃ­simo, Ale. Hoy el hÃ©roe eres tÃº. Â¡Felices 16 aÃ±os, mi Spider-Man favorito! â¤ï¸ðŸ’™ðŸ•·ï¸</p>
+</div>
+<button onclick="go(7)">AÃšN HAY UNA SORPRESA âžœ</button>
+</div></section>
 
-</body>
-</html>
+<section class="screen" id="s8"><div class="panel">
+<div class="web">ðŸ•·ï¸ðŸŽ‚ðŸ•¸ï¸</div><h1>Â¡FELICES 16, ALE!</h1>
+<p>Un nuevo capÃ­tulo comienza hoy. Que estÃ© lleno de amor, aventuras, sueÃ±os cumplidos y momentos que te hagan feliz.</p>
+<p>Gracias por existir y por dejarme celebrar este dÃ­a contigo, aunque sea a travÃ©s de esta pequeÃ±a sorpresa.</p>
+<button onclick="finalSurprise()">ðŸŽ‰ ABRIR ÃšLTIMA SORPRESA</button>
+<div id="finalMessage" style="display:none">
+<h2>Â¡MISIÃ“N CUMPLIDA! â¤ï¸ðŸ’™</h2>
+<p>En este multiverso, hoy y siempre, deseo que te pasen cosas preciosas. Nunca olvides lo valioso que eres.</p>
+<div class="final">ðŸ•¸ï¸ â¤ï¸ ðŸ•·ï¸ ðŸŽ‚ ðŸ’™ ðŸŽ</div>
+</div>
+</div></section>
+<footer>Hecho con cariÃ±o para Ale Â· Su propio pequeÃ±o multiverso ðŸ•·ï¸ðŸ’™</footer>
+</main>
+<script>
+const screens=[...document.querySelectorAll('.screen')];
+function go(n){screens.forEach((s,i)=>s.classList.toggle('active',i===n));window.scrollTo({top:0,behavior:'smooth'});}
+const gifts=[
+"ðŸ“¸ REGALO 1 â€” Un recuerdo: tu historia es Ãºnica, y quÃ© bonito es celebrar a la persona que eres hoy.",
+"ðŸ’Œ REGALO 2 â€” Un mensaje: mereces dÃ­as bonitos, cariÃ±o sincero y muchas razones para sonreÃ­r.",
+"ðŸŽµ REGALO 3 â€” Una canciÃ³n: pulsa el botÃ³n de la siguiente pantalla para escuchar Â«El ReyÂ».",
+"ðŸŽ REGALO 4 â€” Una sorpresa: preparÃ© este detalle especialmente para ti. â¤ï¸"
+];
+function openGift(i){const el=document.getElementById('giftText');el.style.display='block';el.textContent=gifts[i];document.querySelectorAll('.gift')[i].textContent='â¤ï¸ ABIERTO';}
+const photos=[
+['foto-ale.jpg','El pequeÃ±o hÃ©roe ðŸ•¸ï¸'],
+['ale-campeon-1.jpg','Un campeÃ³n ðŸ†'],
+['ale-campeon-2.jpg','Un logro para recordar âœ¨'],
+['ale-spiderman.jpg','El fan de Spider-Man â¤ï¸ðŸ’™']
+];let photoIndex=0;
+function changePhoto(d){photoIndex=(photoIndex+d+photos.length)%photos.length;const img=document.getElementById('gallery');img.style.display='block';img.src=photos[photoIndex][0];document.getElementById('galleryCaption').textContent=photos[photoIndex][1];document.getElementById('photoCount').textContent=`Foto ${photoIndex+1} de ${photos.length}`;img.onerror=()=>{img.style.display='none';document.getElementById('galleryCaption').textContent='Esta foto no estÃ¡ disponible; toca siguiente para ver otra.';};}
+const wishes=[
+"Que tengas salud y tranquilidad.","Que nunca pierdas tus ganas de soÃ±ar.","Que logres metas que te hagan sentir orgulloso.",
+"Que te rodee gente sincera.","Que encuentres motivos para reÃ­r cada dÃ­a.","Que vivas aventuras inolvidables.",
+"Que nunca dejes de aprender.","Que tengas fuerza en los dÃ­as difÃ­ciles.","Que te sientas querido y valorado.",
+"Que disfrutes tus pasiones.","Que celebres cada pequeÃ±o logro.","Que tengas nuevas oportunidades.",
+"Que nunca te falten esperanza y valentÃ­a.","Que tus recuerdos favoritos se multipliquen.","Que la vida te sorprenda bonito.",
+"Que tus 16 sean el comienzo de una etapa maravillosa. â¤ï¸"
+];
+const holder=document.getElementById('sixteen');
+wishes.forEach((w,i)=>{const b=document.createElement('button');b.className='card';b.style.width='100%';b.textContent=String(i+1).padStart(2,'0')+' ðŸ•·ï¸ Toca para descubrir';b.onclick=()=>{b.textContent=String(i+1).padStart(2,'0')+' â€” '+w;b.style.background='#173b72';};holder.appendChild(b);});
+function finalSurprise(){document.getElementById('finalMessage').style.display='block';for(let i=0;i<35;i++){const x=document.createElement('span');x.className='heart';x.textContent=['â¤ï¸','ðŸ’™','âœ¨','ðŸ•·ï¸','ðŸŽ‰'][Math.floor(Math.random()*5)];x.style.left=Math.random()*100+'vw';x.style.fontSize=(18+Math.random()*20)+'px';x.style.animationDuration=(3+Math.random()*3)+'s';document.body.appendChild(x);setTimeout(()=>x.remove(),6500);}}
+</script>
+</body></html>
